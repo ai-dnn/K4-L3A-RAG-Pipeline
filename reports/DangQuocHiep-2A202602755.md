@@ -3,7 +3,7 @@
 ## Thông tin
 
 - Họ và tên: Đặng Quốc Hiệp
-- Mã học viên: 2A202602755 (QuocHiep123)
+- Mã học viên: 2A202602755
 - Nhóm: Nhóm RAG Pháp Luật Lao Động (K4-L3A)
 - Repository/branch: `K4-L3A-RAG-Pipeline` / `dev`
 
