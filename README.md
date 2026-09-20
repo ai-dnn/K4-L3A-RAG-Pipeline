@@ -86,6 +86,13 @@ Các key được che trong log. Log tự xoay ở 5 MB và giữ 3 bản cũ.
 File watcher của Streamlit được tắt để tránh lỗi kiểm tra lazy imports của Transformers;
 sau khi sửa code, hãy khởi động lại server.
 
+Nếu model từ chối do thiếu bằng chứng, Task 10 thử lại một lần: tạo tối đa 2 truy vấn
+bằng thuật ngữ pháp lý, tìm lại tài liệu và bổ sung toàn bộ điều luật chứa đoạn khớp
+trong Markdown (tối đa 12.000 ký tự mỗi nguồn). Giữ câu hỏi gốc khi tạo câu trả lời;
+truy vấn viết lại không được dùng làm bằng chứng. Không cần index lại.
+Fallback thêm tối đa 2 lượt tìm kiếm và 2 lần gọi LLM; citation vẫn được kiểm tra.
+Log `retrieval.retry` và `generation.context` ghi ID nguồn cho từng lần thử.
+
 ## Lộ trình 3 giờ
 
 | Mốc                  | Thời gian | Kết quả cần có                           |
