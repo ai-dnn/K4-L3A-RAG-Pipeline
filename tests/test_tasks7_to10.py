@@ -150,7 +150,7 @@ def test_generation_preserves_citation_mapping_after_reorder(monkeypatch):
     assert output['retrieval_source'] == 'hybrid'
 
 
-@pytest.mark.parametrize('answer', ['No citation', 'Sai nguồn [0]', 'Sai nguồn [2]', generation.REFUSAL])
+@pytest.mark.parametrize('answer', ['No citation', 'Sai nguồn [0]', 'Sai nguồn [2]', 'Sai nguồn [Source 2]', generation.REFUSAL])
 def test_generation_rejects_bad_citations(monkeypatch, answer):
     monkeypatch.setattr(generation, 'retrieve', lambda *args, **kwargs: [result()])
     monkeypatch.setattr(generation, 'call_llm', lambda *args: answer)
@@ -158,6 +158,15 @@ def test_generation_rejects_bad_citations(monkeypatch, answer):
     validate_generation_result(output)
     assert output['retrieval_source'] == 'none'
     assert output['sources'] == []
+
+
+def test_generation_normalizes_source_labels(monkeypatch):
+    chunks = [result()]
+    monkeypatch.setattr(generation, 'retrieve', lambda *args, **kwargs: chunks)
+    monkeypatch.setattr(generation, 'call_llm', lambda *args: 'Thông tin [Source 1].')
+    output = generation.generate_with_citation('query')
+    assert output['answer'] == 'Thông tin [1].'
+    assert output['sources'] == chunks
 
 
 @pytest.mark.parametrize('stage', ['retrieval', 'llm', 'empty'])

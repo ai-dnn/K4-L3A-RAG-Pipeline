@@ -5,6 +5,7 @@ import logging
 import re
 
 from .llm import call_llm
+from .llm_logging import log_event
 from .task9_retrieval_pipeline import retrieve
 
 TOP_K = 5
@@ -45,16 +46,22 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
     try:
         chunks = retrieve(query, top_k=top_k)
         if not chunks:
+            log_event('generation.refused', reason='no_sources')
             return refusal
         labeled = [{**chunk, 'citation_number': index} for index, chunk in enumerate(chunks, 1)]
         context = format_context(reorder_for_llm(labeled))
         answer = call_llm(SYSTEM_PROMPT, json.dumps({'context': context, 'question': query}, ensure_ascii=False))
+        # Models may echo the context's [Source N] labels instead of [N].
+        answer = re.sub(r'\[Source\s+(\d+)\]', r'[\1]', answer, flags=re.IGNORECASE)
         citations = [int(value) for value in re.findall(r'\[(\d+)\]', answer)]
         if answer.strip() == REFUSAL or not citations or any(index < 1 or index > len(chunks) for index in citations):
+            log_event('generation.refused', reason='model_refusal' if answer.strip() == REFUSAL else 'invalid_citations',
+                      citations=citations, source_count=len(chunks))
             return refusal
         return {'answer': answer, 'sources': chunks,
                 'retrieval_source': 'pageindex' if chunks[0]['retrieval_method'] == 'pageindex' else 'hybrid'}
     except Exception as error:
+        log_event('generation.error', error_type=type(error).__name__)
         logger.warning('Cannot generate a grounded answer (%s)', type(error).__name__)
         return refusal
 

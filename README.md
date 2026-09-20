@@ -72,6 +72,20 @@ pytest -q
 streamlit run app.py
 ```
 
+Giao diện **Sổ tay lao động** cho phép nhập câu hỏi hoặc chọn chủ đề gợi ý,
+xem lịch sử trò chuyện và mở từng trích đoạn theo số citation `[1]`, `[2]`.
+Lịch sử chỉ lưu trong phiên hiện tại; mỗi câu hỏi được tra cứu độc lập.
+Nút **Cuộc trò chuyện mới** xóa lịch sử của phiên. Cần index ở Task 4 và
+`OPENROUTER_API_KEY` trong `.env` trước khi hỏi; UI dùng pipeline Task 10 hiện có.
+
+LLM debug logs được ghi dạng JSONL vào `logs/llm.log` (không commit), gồm request ID,
+model, thời gian, token usage, finish reason và loại lỗi / HTTP status.
+Theo dõi bằng `tail -f logs/llm.log`. Đặt `LLM_LOG_CONTENT=true` trong `.env`
+và khởi động lại server để ghi thêm prompt, context và câu trả lời; mặc định không ghi nội dung.
+Các key được che trong log. Log tự xoay ở 5 MB và giữ 3 bản cũ.
+File watcher của Streamlit được tắt để tránh lỗi kiểm tra lazy imports của Transformers;
+sau khi sửa code, hãy khởi động lại server.
+
 ## Lộ trình 3 giờ
 
 | Mốc                  | Thời gian | Kết quả cần có                           |

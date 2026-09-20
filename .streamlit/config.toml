@@ -1,0 +1,11 @@
+[server]
+# Transformers lazy imports do not support Streamlit's module inspection.
+fileWatcherType = "none"
+
+[theme]
+base = "light"
+primaryColor = "#2855A0"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F4FA"
+textColor = "#1B2D48"
+font = "sans serif"
