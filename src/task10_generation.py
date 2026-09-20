@@ -10,6 +10,7 @@ from .retrieval_context import expand_legal_articles
 from .task9_retrieval_pipeline import retrieve
 
 TOP_K = 5
+MAX_CONTEXT_CHARS = 32000
 REFUSAL = 'Tôi không thể xác minh thông tin này từ nguồn hiện có.'
 SYSTEM_PROMPT = f'''Bạn trả lời câu hỏi về pháp luật lao động Việt Nam, chỉ từ context được cung cấp.
 Mỗi khẳng định thực tế phải có citation dạng [1], [2] khớp Source trong context.
@@ -80,6 +81,19 @@ def format_context(chunks: list[dict]) -> str:
     return '\n\n---\n\n'.join(parts)
 
 
+def prepare_context(chunks: list[dict]) -> list[dict]:
+    """Expand before generation; omit whole sources that exceed the budget."""
+    expanded = expand_legal_articles(chunks)
+    selected = []
+    for chunk in expanded:
+        if len(format_context([*selected, chunk])) <= MAX_CONTEXT_CHARS:
+            selected.append(chunk)
+    log_event('generation.context_prepared', retrieved_count=len(chunks),
+              expanded_count=len(expanded), selected_count=len(selected),
+              budget_omitted_count=len(expanded) - len(selected))
+    return selected
+
+
 def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
     """Lỗi retrieval/provider hoặc citation không hợp lệ -> safe refusal."""
     refusal = {'answer': REFUSAL, 'sources': [], 'retrieval_source': 'none'}
@@ -91,6 +105,10 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
             log_event('generation.refused', reason='no_sources')
             return refusal
         for attempt in range(2):
+            chunks = prepare_context(chunks)
+            if not chunks:
+                log_event('generation.refused', reason='context_budget')
+                return refusal
             log_event('generation.context', attempt=attempt + 1,
                       source_ids=[item['id'] for item in chunks],
                       context_chars=sum(len(item['content']) for item in chunks))

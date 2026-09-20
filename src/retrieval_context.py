@@ -14,7 +14,7 @@ def expand_legal_articles(chunks: list[dict]) -> list[dict]:
     if not eligible:
         return chunks
     documents = {item['id']: item for item in load_documents()}
-    expanded = []
+    expanded, seen_articles = [], set()
     for item in chunks:
         document = documents.get(item['id'].split('::chunk-')[0]) if item in eligible else None
         text = document['content'] if document else ''
@@ -28,6 +28,10 @@ def expand_legal_articles(chunks: list[dict]) -> list[dict]:
             if before:
                 article = text[before[-1]:after[0] if after else len(text)].strip()
                 if len(article) <= MAX_ARTICLE_CHARS:
+                    identity = (document['id'], before[-1], after[0] if after else len(text))
+                    if identity in seen_articles:
+                        continue
+                    seen_articles.add(identity)
                     content = article
         expanded.append({**item, 'content': content})
     return expanded
