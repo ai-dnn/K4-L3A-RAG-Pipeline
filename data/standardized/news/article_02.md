@@ -2,7 +2,7 @@
 
 **Source:** https://baochinhphu.vn/nhieu-diem-moi-trong-bo-luat-lao-dong-ve-hop-dong-lao-dong-102267368.htm
 
-**Crawled:** 2026-09-20T07:56:43.721453+00:00
+**Crawled:** 2026-09-20T09:47:01.661811+00:00
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Source:** https://baochinhphu.vn/17-diem-moi-noi-bat-cua-bo-luat-lao-dong-2019-102267514.htm
 
-**Crawled:** 2026-09-20T07:56:42.549722+00:00
+**Crawled:** 2026-09-20T09:47:00.367723+00:00
 
 ---
 

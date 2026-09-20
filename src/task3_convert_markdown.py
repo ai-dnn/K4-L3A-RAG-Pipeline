@@ -1,67 +1,49 @@
-"""
-Task 3 — Chuẩn hóa dữ liệu sang Markdown.
+﻿"""
+Task 3 â€” Chuáº©n hÃ³a dá»¯ liá»‡u sang Markdown.
 
-Hướng dẫn:
-    1. Dùng MarkItDown để convert PDF/DOCX.
-    2. Đọc JSON và giữ metadata ở đầu file Markdown.
-    3. Giữ cấu trúc thư mục legal/ và news/.
-    4. Không tạo file rỗng hoặc file trùng khi chạy lại.
+HÆ°á»›ng dáº«n:
+    1. DÃ¹ng MarkItDown Ä‘á»ƒ convert PDF/DOCX.
+    2. Äá»c JSON vÃ  giá»¯ metadata á»Ÿ Ä‘áº§u file Markdown.
+    3. Giá»¯ cáº¥u trÃºc thÆ° má»¥c legal/ vÃ  news/.
+    4. KhÃ´ng táº¡o file rá»—ng hoáº·c file trÃ¹ng khi cháº¡y láº¡i.
 
-Cài đặt:
-    Dependency MarkItDown đã được khai báo trong pyproject.toml.
-    PDF scan cần Tesseract và ngôn ngữ vie (macOS: brew install tesseract tesseract-lang).
-    Có thể đặt vie.traineddata trong .cache/tessdata/ của repo.
+CÃ i Ä‘áº·t:
+    Dependency MarkItDown Ä‘Ã£ Ä‘Æ°á»£c khai bÃ¡o trong pyproject.toml.
+    PDF scan cáº§n Tesseract vÃ  ngÃ´n ngá»¯ vie (macOS: brew install tesseract tesseract-lang).
+    CÃ³ thá»ƒ Ä‘áº·t vie.traineddata trong .cache/tessdata/ cá»§a repo.
     
--> Hoặc dùng công cụ nào bạn quen khác Markitdown
+-> Hoáº·c dÃ¹ng cÃ´ng cá»¥ nÃ o báº¡n quen khÃ¡c Markitdown
 """
 
 import json
-import subprocess
 from pathlib import Path
-from tempfile import TemporaryDirectory
 
-import pypdfium2 as pdfium
+import fitz  # PyMuPDF
 from markitdown import MarkItDown
 
 
 LANDING_DIR = Path(__file__).parent.parent / "data" / "landing"
 OUTPUT_DIR = Path(__file__).parent.parent / "data" / "standardized"
 
-# Hai bản của cùng Bộ luật: ưu tiên DOCX để tránh lỗi OCR và dữ liệu trùng.
+# Hai báº£n cá»§a cÃ¹ng Bá»™ luáº­t: Æ°u tiÃªn DOCX Ä‘á»ƒ trÃ¡nh lá»—i OCR vÃ  dá»¯ liá»‡u trÃ¹ng.
 LEGAL_ALIASES = {
     "2026_131_18_VBHN-VPQH.docx": "bo_luat_lao_dong_18_vbhn_vpqh_2026",
 }
 
 
-def ocr_pdf(path: Path) -> str:
-    """Đọc PDF scan bằng Tesseract tiếng Việt, từng trang để hạn chế RAM."""
-    command = ["tesseract", "stdin", "stdout", "-l", "vie"]
-    tessdata = Path(__file__).parent.parent / ".cache" / "tessdata"
-    if (tessdata / "vie.traineddata").is_file():
-        command.extend(["--tessdata-dir", str(tessdata)])
+def extract_pdf_text(path: Path) -> str:
+    """Trích xuất text từ PDF bằng PyMuPDF (không cần Tesseract)."""
     pages = []
-    with pdfium.PdfDocument(path) as pdf, TemporaryDirectory() as temporary_dir:
-        image_path = Path(temporary_dir) / "page.png"
-        for index in range(len(pdf)):
-            page = pdf[index]
-            try:
-                bitmap = page.render(scale=3)
-                try:
-                    bitmap.to_pil().save(image_path)
-                finally:
-                    bitmap.close()
-            finally:
-                page.close()
-            result = subprocess.run(
-                command, input=image_path.read_bytes(), capture_output=True, check=True,
-            )
-            pages.append(result.stdout.decode("utf-8").strip())
-            print(f"OCR: {path.name} {index + 1}/{len(pdf)}", flush=True)
+    with fitz.open(path) as doc:
+        for index, page in enumerate(doc):
+            text = page.get_text().strip()
+            pages.append(text)
+            print(f"Extract: {path.name} {index + 1}/{len(doc)}", flush=True)
     return "\n\n".join(pages).strip()
 
 
 def convert_legal_docs() -> None:
-    """Chuyển PDF/DOCX sang Markdown."""
+    """Chuyá»ƒn PDF/DOCX sang Markdown."""
     output_dir = OUTPUT_DIR / "legal"
     output_dir.mkdir(parents=True, exist_ok=True)
     converter = MarkItDown()
@@ -74,7 +56,7 @@ def convert_legal_docs() -> None:
     for stem, path in sources.items():
         content = converter.convert(str(path)).text_content.strip()
         if not content and path.suffix.lower() == ".pdf":
-            content = ocr_pdf(path)
+            content = extract_pdf_text(path)
         if not content:
             raise ValueError(f"No text extracted from {path.name}")
         header = f"# {stem.replace('_', ' ')}\n\n**Source:** {path.name}\n\n---\n\n"
@@ -82,7 +64,7 @@ def convert_legal_docs() -> None:
 
 
 def convert_news_articles() -> None:
-    """Chuyển JSON sang Markdown, giữ tiêu đề và metadata nguồn."""
+    """Chuyá»ƒn JSON sang Markdown, giá»¯ tiÃªu Ä‘á» vÃ  metadata nguá»“n."""
     output_dir = OUTPUT_DIR / "news"
     output_dir.mkdir(parents=True, exist_ok=True)
     for path in sorted((LANDING_DIR / "news").glob("*.json")):
@@ -99,7 +81,7 @@ def convert_news_articles() -> None:
 
 
 def convert_all() -> None:
-    """Convert toàn bộ dữ liệu landing."""
+    """Convert toÃ n bá»™ dá»¯ liá»‡u landing."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     convert_legal_docs()
     convert_news_articles()

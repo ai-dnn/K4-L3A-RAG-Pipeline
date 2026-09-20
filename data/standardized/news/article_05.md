@@ -2,7 +2,7 @@
 
 **Source:** https://baochinhphu.vn/truong-hop-nao-bi-coi-la-cham-dut-hop-dong-lao-dong-trai-luat-102220905124022519.htm
 
-**Crawled:** 2026-09-20T07:56:47.346046+00:00
+**Crawled:** 2026-09-20T09:47:05.768158+00:00
 
 ---
 

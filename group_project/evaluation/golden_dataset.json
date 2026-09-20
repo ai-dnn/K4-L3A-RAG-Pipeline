@@ -1,0 +1,97 @@
+﻿[
+  {
+    "question": "Người lao động được nghỉ hằng năm bao nhiêu ngày?",
+    "ground_truth": "Người lao động làm việc đủ 12 tháng được nghỉ hằng năm hưởng nguyên lương: 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường; 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm; 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.",
+    "contexts": ["Điều 113. Nghỉ hằng năm"]
+  },
+  {
+    "question": "Thời giờ làm việc bình thường tối đa là bao nhiêu giờ một ngày?",
+    "ground_truth": "Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.",
+    "contexts": ["Điều 105. Thời giờ làm việc bình thường"]
+  },
+  {
+    "question": "Người lao động được nghỉ bao nhiêu ngày khi kết hôn?",
+    "ground_truth": "Người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương khi kết hôn: nghỉ 03 ngày.",
+    "contexts": ["Điều 115. Nghỉ việc riêng, nghỉ không hưởng lương"]
+  },
+  {
+    "question": "Tiền lương làm thêm giờ vào ngày nghỉ hằng tuần được tính như thế nào?",
+    "ground_truth": "Người lao động làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bằng 200% tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm.",
+    "contexts": ["Điều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm"]
+  },
+  {
+    "question": "Có bao nhiêu loại hợp đồng lao động?",
+    "ground_truth": "Hợp đồng lao động phải được giao kết theo một trong các loại: (a) Hợp đồng lao động không xác định thời hạn; (b) Hợp đồng lao động xác định thời hạn trong thời gian không quá 36 tháng.",
+    "contexts": ["Điều 20. Loại hợp đồng lao động"]
+  },
+  {
+    "question": "Thời gian thử việc tối đa đối với công việc cần trình độ cao đẳng trở lên là bao lâu?",
+    "ground_truth": "Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên.",
+    "contexts": ["Điều 25. Thời gian thử việc"]
+  },
+  {
+    "question": "Người lao động phải báo trước bao lâu khi đơn phương chấm dứt hợp đồng lao động không xác định thời hạn?",
+    "ground_truth": "Người lao động phải báo trước ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn.",
+    "contexts": ["Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động"]
+  },
+  {
+    "question": "Có những hình thức xử lý kỷ luật lao động nào?",
+    "ground_truth": "Các hình thức xử lý kỷ luật lao động gồm: (1) Khiển trách; (2) Kéo dài thời hạn nâng lương không quá 06 tháng; (3) Cách chức; (4) Sa thải.",
+    "contexts": ["Điều 124. Hình thức xử lý kỷ luật lao động"]
+  },
+  {
+    "question": "Mức lương tối thiểu được xác lập như thế nào?",
+    "ground_truth": "Mức lương tối thiểu là mức lương thấp nhất được trả cho người lao động làm công việc giản đơn nhất trong điều kiện lao động bình thường. Mức lương tối thiểu được xác lập theo vùng, ấn định theo tháng, giờ.",
+    "contexts": ["Điều 91. Mức lương tối thiểu"]
+  },
+  {
+    "question": "Tiền lương bao gồm những khoản nào?",
+    "ground_truth": "Tiền lương là số tiền mà người sử dụng lao động trả cho người lao động theo thỏa thuận để thực hiện công việc, bao gồm mức lương theo công việc hoặc chức danh, phụ cấp lương và các khoản bổ sung khác.",
+    "contexts": ["Điều 90. Tiền lương"]
+  },
+  {
+    "question": "Lao động nữ mang thai từ tháng thứ mấy thì không được làm thêm giờ?",
+    "ground_truth": "Người sử dụng lao động không được sử dụng lao động nữ làm việc ban đêm, làm thêm giờ và đi công tác xa khi mang thai từ tháng thứ 07, hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo.",
+    "contexts": ["Điều 137. Bảo vệ thai sản"]
+  },
+  {
+    "question": "Ngày nghỉ hằng năm tăng thêm theo thâm niên như thế nào?",
+    "ground_truth": "Cứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm của người lao động được tăng thêm tương ứng 01 ngày.",
+    "contexts": ["Điều 114. Ngày nghỉ hằng năm tăng thêm theo thâm niên làm việc"]
+  },
+  {
+    "question": "Tiền lương làm thêm giờ vào ngày lễ, tết được tính ít nhất bao nhiêu phần trăm?",
+    "ground_truth": "Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, tiền lương làm thêm giờ ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.",
+    "contexts": ["Điều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm"]
+  },
+  {
+    "question": "Người lao động có những quyền gì theo Bộ luật Lao động?",
+    "ground_truth": "Người lao động có các quyền: làm việc, tự do lựa chọn việc làm; hưởng lương phù hợp với trình độ; được bảo hộ lao động; nghỉ theo chế độ; thành lập, gia nhập tổ chức đại diện; yêu cầu và tham gia đối thoại; đình công; đơn phương chấm dứt hợp đồng; và các quyền khác theo quy định.",
+    "contexts": ["Điều 5. Quyền và nghĩa vụ của người lao động"]
+  },
+  {
+    "question": "Người lao động được nghỉ bao nhiêu ngày lễ, tết trong năm?",
+    "ground_truth": "Người lao động được nghỉ lễ, tết hưởng nguyên lương gồm: Tết Dương lịch (01 ngày); Tết Âm lịch (05 ngày); Ngày Chiến thắng (01 ngày); Ngày Quốc tế lao động (01 ngày); Quốc khánh (02 ngày); Ngày Giỗ Tổ Hùng Vương (01 ngày). Tổng cộng 11 ngày.",
+    "contexts": ["Điều 112. Nghỉ lễ, tết"]
+  },
+  {
+    "question": "Làm thêm giờ tối đa bao nhiêu giờ trong một tháng?",
+    "ground_truth": "Người sử dụng lao động được sử dụng người lao động làm thêm giờ khi bảo đảm số giờ làm thêm không quá 40 giờ trong 01 tháng.",
+    "contexts": ["Điều 107. Làm thêm giờ"]
+  },
+  {
+    "question": "Thời gian nghỉ ngơi giữa ca làm việc là bao lâu?",
+    "ground_truth": "Người lao động làm việc theo thời giờ làm việc bình thường từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.",
+    "contexts": ["Điều 109. Nghỉ trong giờ làm việc"]
+  },
+  {
+    "question": "Công thức nấu phở bò truyền thống là gì?",
+    "ground_truth": "Câu hỏi này nằm ngoài phạm vi tài liệu pháp luật lao động.",
+    "contexts": []
+  },
+  {
+    "question": "Thủ đô của Pháp là gì?",
+    "ground_truth": "Câu hỏi này nằm ngoài phạm vi tài liệu pháp luật lao động.",
+    "contexts": []
+  }
+]

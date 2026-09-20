@@ -2,7 +2,7 @@
 
 **Source:** https://baochinhphu.vn/quy-dinh-ve-thoi-gio-nghi-ngoi-theo-bo-luat-lao-dong-moi-102294141.htm
 
-**Crawled:** 2026-09-20T07:56:44.975386+00:00
+**Crawled:** 2026-09-20T09:47:02.992700+00:00
 
 ---
 
