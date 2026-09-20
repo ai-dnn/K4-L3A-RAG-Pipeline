@@ -1,0 +1,204 @@
+# 17 điểm mới nổi bật của Bộ luật Lao động 2019
+
+**Source:** https://baochinhphu.vn/17-diem-moi-noi-bat-cua-bo-luat-lao-dong-2019-102267514.htm
+
+**Crawled:** 2026-09-20T07:56:42.549722+00:00
+
+---
+
+[ ![Báo chính phủ](https://static-cttcp.cdnchinhphu.vn/baochinhphu/image/logo_bcp.png) ](https://baochinhphu.vn/)
+chính phủ nước cộng hòa xã hội chủ nghĩa việt nam
+Báo Điện tử Chính phủ
+[English](https://en.baochinhphu.vn/ "Tiếng Anh") [中文](https://cn.baochinhphu.vn/ "Tiếng Trung")
+  * [ trang chủ ](https://baochinhphu.vn/ "Trang chủ")
+  * [Chính trị](https://baochinhphu.vn/chinh-tri.htm "Chính trị")
+[Đối ngoại](https://baochinhphu.vn/chinh-tri/doi-ngoai.htm "Đối ngoại") [Tổ chức nhân sự](https://baochinhphu.vn/chinh-tri/to-chuc-nhan-su.htm "Tổ chức nhân sự") [Hội nhập](https://baochinhphu.vn/chinh-tri/hoi-nhap.htm "Hội nhập")
+  * [Kinh tế](https://baochinhphu.vn/kinh-te.htm "Kinh tế")
+[Ngân hàng](https://baochinhphu.vn/kinh-te/ngan-hang.htm "Ngân hàng") [Chứng khoán](https://baochinhphu.vn/kinh-te/chung-khoan.htm "Chứng khoán") [Kinh doanh](https://baochinhphu.vn/kinh-te/kinh-doanh.htm "Kinh doanh")
+  * [Văn hóa](https://baochinhphu.vn/van-hoa.htm "Văn hóa")
+[Thể thao](https://baochinhphu.vn/van-hoa/the-thao.htm "Thể thao") [Du lịch](https://baochinhphu.vn/van-hoa/du-lich.htm "Du lịch")
+  * [Xã hội](https://baochinhphu.vn/xa-hoi.htm "Xã hội")
+[Pháp luật](https://baochinhphu.vn/xa-hoi/phap-luat.htm "Pháp luật") [Đời sống](https://baochinhphu.vn/xa-hoi/doi-song.htm "Đời sống") [Y tế](https://baochinhphu.vn/xa-hoi/y-te.htm "Y tế")
+  * [Khoa giáo](https://baochinhphu.vn/khoa-giao.htm "Khoa giáo")
+[Giáo dục](https://baochinhphu.vn/khoa-giao/giao-duc.htm "Giáo dục") [Khoa học - Công nghệ](https://baochinhphu.vn/khoa-giao/khoa-hoc-cong-nghe.htm "Khoa học - Công nghệ")
+  * [Quốc tế](https://baochinhphu.vn/quoc-te.htm "Quốc tế")
+  * [ Góp Ý Hiến Kế ](https://baochinhphu.vn/#gop-y-hien-ke "Góp Ý Hiến Kế")
+
+
+[ Mới Nhất ](https://baochinhphu.vn/tin-moi.htm "Mới Nhất") [ ](javascript:; "Tìm kiếm")
+[ ](https://baochinhphu.vn/17-diem-moi-noi-bat-cua-bo-luat-lao-dong-2019-102267514.htm)
+[ Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân thăm Liên bang Nga, Cộng hòa Pháp ](https://baochinhphu.vn/chu-de/tong-bi-thu-chu-tich-nuoc-to-lam-va-phu-nhan-tham-lien-bang-nga-cong-hoa-phap-294.htm "Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân thăm Liên bang Nga, Cộng hòa Pháp")
+[ Chiến dịch 500 ngày đêm tìm kiếm, quy tập và xác định danh tính hài cốt liệt sĩ ](https://baochinhphu.vn/chu-de/chien-dich-500-ngay-dem-tim-kiem-quy-tap-va-xac-dinh-danh-tinh-hai-cot-liet-si-291.htm "Chiến dịch 500 ngày đêm tìm kiếm, quy tập và xác định danh tính hài cốt liệt sĩ")
+[ Bảo vệ nền tảng tư tưởng của Đảng trong kỷ nguyên phát triển mới ](https://baochinhphu.vn/chu-de/bao-ve-nen-tang-tu-tuong-cua-dang-trong-ky-nguyen-phat-trien-moi-290.htm "Bảo vệ nền tảng tư tưởng của Đảng trong kỷ nguyên phát triển mới")
+[ 100 ngày xử lý các điểm nghẽn về chuyển đổi số ](https://baochinhphu.vn/chu-de/100-ngay-xu-ly-cac-diem-nghen-ve-chuyen-doi-so-295.htm "100 ngày xử lý các điểm nghẽn về chuyển đổi số")
+[ Phát triển nhà ở cho thuê - Trụ cột chiến lược, lâu dài ](https://baochinhphu.vn/chu-de/phat-trien-nha-o-cho-thue-tru-cot-chien-luoc-lau-dai-293.htm "Phát triển nhà ở cho thuê - Trụ cột chiến lược, lâu dài")
+[ Cổng TTĐT Chính phủ ](https://chinhphu.vn "Cổng TTĐT Chính phủ") [ Văn phòng Chính phủ ](https://vpcp.chinhphu.vn/ "Văn phòng Chính phủ") [ ](https://mail.chinhphu.vn/ "email")
+  * An Giang
+  * Bình Dương
+  * Bình Phước
+  * Bình Thuận
+  * Bình Định
+  * Bạc Liêu
+  * Bắc Giang
+  * Bắc Kạn
+  * Bắc Ninh
+  * Bến Tre
+  * Cao Bằng
+  * Cà Mau
+  * Cần Thơ
+  * Điện Biên
+  * Đà Nẵng
+  * Đà Lạt
+  * Đắk Lắk
+  * Đắk Nông
+  * Đồng Nai
+  * Đồng Tháp
+  * Gia Lai
+  * Hà Nội
+  * Hồ Chí Minh
+  * Hà Giang
+  * Hà Nam
+  * Hà Tây
+  * Hà Tĩnh
+  * Hòa Bình
+  * Hưng Yên
+  * Hải Dương
+  * Hải Phòng
+  * Hậu Giang
+  * Khánh Hòa
+  * Kiên Giang
+  * Kon Tum
+  * Lai Châu
+  * Long An
+  * Lào Cai
+  * Lâm Đồng
+  * Lạng Sơn
+  * Nam Định
+  * Nghệ An
+  * Ninh Bình
+  * Ninh Thuận
+  * Phú Thọ
+  * Phú Yên
+  * Quảng Bình
+  * Quảng Nam
+  * Quảng Ngãi
+  * Quảng Ninh
+  * Quảng Trị
+  * Sóc Trăng
+  * Sơn La
+  * Thanh Hóa
+  * Thái Bình
+  * Thái Nguyên
+  * Thừa Thiên Huế
+  * Tiền Giang
+  * Trà Vinh
+  * Tuyên Quang
+  * Tây Ninh
+  * Vĩnh Long
+  * Vĩnh Phúc
+  * Vũng Tàu
+  * Yên Bái
+
+
+[ ](javascript:; "chia sẻ facebook") [ ](javascript:; "chia sẻ zalo") [ 0 ](https://baochinhphu.vn/17-diem-moi-noi-bat-cua-bo-luat-lao-dong-2019-102267514.htm#commentpage "bình luận") [ ](https://baochinhphu.vn/print/17-diem-moi-noi-bat-cua-bo-luat-lao-dong-2019-102267514.htm "In bài viết") [ aA  ](javascript:; "Tăng cỡ chữ")
+  * [ Xã hội ](https://baochinhphu.vn/xa-hoi.htm "Xã hội")
+  * [Đời sống](https://baochinhphu.vn/xa-hoi/doi-song.htm "Đời sống")
+
+
+# 17 điểm mới nổi bật của Bộ luật Lao động 2019
+##  (Chinhphu.vn) - Bộ luật Lao động sửa đổi năm 2019 (Bộ luật 2019) có hiệu lực từ ngày 1/1/2021 với nhiều điểm mới sẽ tác động lớn đến người lao động. 
+27/01/2020 16:23 
+**1. Mở rộng phạm vi và đối tượng điều chỉnh**
+Nếu như Bộ luật Lao động 2012 (Bộ luật 2012) quy định tiêu chuẩn lao động; quyền, nghĩa vụ, trách nhiệm của người lao động, người sử dụng lao động... trong quan hệ lao động và các quan hệ khác liên quan trực tiếp đến quan hệ lao động thì Bộ luật 2019 mở rộng thêm đối tượng là người làm việc không có quan hệ lao động cùng một số tiêu chuẩn riêng.
+Cụ thể: Điều chỉnh tất cả người lao động có quan hệ lao động (khoảng gần 20 triệu người).
+- Mở rộng áp dụng một số quy định của Bộ luật đối với cả người lao động không có quan hệ lao động, một số nội dung được áp dụng cho toàn bộ lực lượng lao động xã hội khoảng 55 triệu người.
+Bộ luật cũng có quy định để mở rộng diện bao phủ và nâng cao khả năng nhận diện người lao động làm việc theo hợp đồng lao động, dựa trên các dấu hiệu bản chất của quan hệ lao động cá nhân.
+**2. Tăng tuổi nghỉ hưu lên 62 tuổi với nam, 60 tuổi với nữ.**
+Điều 169 (Bộ luật 2019) nêu rõ: Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035.
+Kể từ năm 2021, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường là đủ 60 tuổi 3 tháng đối với nam; đủ 55 tuổi 4 tháng đối với nữ. Sau đó, cứ mỗi năm tăng thêm 3 tháng với lao động nam; 4 tháng với lao động nữ.
+Riêng người bị suy giảm khả năng lao động; làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hay làm việc ở nơi có điều kiện kinh tế xã hội đặc biệt khó khăn thì có thể nghỉ hưu trước không quá 5 tuổi.
+So với hiện nay theo Bộ luật 2012, tuổi nghỉ hưu của người lao động đã tăng lên đáng kể; đồng thời, với những công việc đặc thù thì việc nghỉ hưu trước tuổi cũng được quy định ràng hơn.
+**3. Quốc khánh được nghỉ 2 ngày**
+Bên cạnh việc tăng tuổi nghỉ hưu, đáng chú ý, Điều 112 (Bộ luật 2019) còn bổ sung thêm 1 ngày nghỉ trong năm vào ngày liền kề với ngày Quốc khánh, có thể là 1/9 hoặc 3/9 Dương lịch tùy theo từng năm và theo đề xuất của Bộ Lao động-Thương binh và Xã hội.
+Và như vậy, tổng số ngày nghỉ lễ, tết hàng năm sẽ nâng lên 11 ngày, trong đó: Tết Dương lịch: 1 ngày; Tết Âm lịch: 5 ngày; Ngày Chiến thắng (30/4 Dương lịch): 1 ngày; Ngày Quốc tế lao động (1/5 Dương lịch): 1 ngày; Ngày Quốc khánh: 2 ngày; Ngày Giỗ tổ Hùng Vương (10/3 Âm lịch): 1 ngày.
+Trong những ngày này, người lao động được nghỉ làm việc và hưởng nguyên lương.
+**4. Không còn hợp đồng lao động theo mùa vụ**
+Điều 20 (Bộ luật 2019) đã bỏ nội dung về hợp đồng mùa vụ hoặc theo một công việc có thời hạn dưới 12 tháng, thay vào đó chỉ còn 2 loại hợp đồng là: hợp đồng lao động không xác định thời hạn và hợp đồng lao động xác định thời hạn.
+Quy định này được đánh giá là tiến bộ lớn của pháp luật lao động nhằm bảo vệ người lao động, hạn chế tình trạng người sử dụng lao động "lách luật", không đóng bảo hiểm xã hội cho người lao động bằng cách ký các loại hợp đồng mùa vụ, dịch vụ...
+**5. Ghi nhận hình thức hợp đồng lao động điện tử**
+Xuất phát từ thực tiễn, với sự phát triển của khoa học công nghệ thì việc giao kết hợp đồng lao động không đơn thuần chỉ bằng văn bản, lời nói hay hành vi. Chính vì vậy, Điều 14 (Bộ luật 2019) đã ghi nhận thêm hình thức giao kết hợp đồng lao động thông qua phương tiện điện tử có giá trị như hợp đồng lao động bằng văn bản.
+Ngoài ra, với những trường hợp hai bên thỏa thuận bằng tên gọi khác nhưng có nội dung thể hiện việc làm có trả công, tiền lương và sự quản lý, điều hành, giám sát của một bên thì vẫn được coi là hợp đồng lao động.
+**6. Được ký hợp đồng xác định thời hạn nhiều lần với người cao tuổi**
+Thông thường, người cao tuổi thường là những người có nhiều năm làm việc với nhiều kinh nghiệm, đặc biệt là những công việc yêu cầu trình độ cao. Do đó, để phát huy giá trị của người cao tuổi, Điều 149 (Bộ luật 2019) cho phép người sử dụng lao động thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn với người cao tuổi thay vì kéo dài thời hạn hợp đồng lao động hoặc giao kết hợp đồng lao động mới như trước đây.
+**7. Tăng thời giờ làm thêm theo tháng lên 40 giờ**
+Về thời giờ làm việc, trước mắt giữ nguyên thời giờ làm việc bình thường như quy định của Bộ luật hiện hành và có lộ trình điều chỉnh giảm giờ làm việc bình thường vào thời điểm thích hợp.
+Về thời giờ làm thêm, mặc dù trước đó rất nhiều phương án được đưa ra, tuy nhiên, tại Điều 107 (Bộ luật 2019), Quốc hội đã quyết định không tăng thời giờ làm thêm giờ trong năm.
+Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 1 ngày; nếu áp dụng thời giờ làm việc theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ/ngày; không quá 40 giờ/tháng; không quá 200 giờ/năm, trừ một số trường hợp đặc biệt được làm thêm không quá 300 giờ/năm.
+Điều khác biệt duy nhất về thời gian làm thêm giờ quy định tại Bộ luật 2019 với Bộ luật 2012 ở điểm: Số giờ làm thêm trong tháng tăng lên 40 giờ thay vì 30 giờ và cụ thể hơn các trường hợp được làm thêm tới 300 giờ/năm như sản xuất, gia công xuất khẩu sản phẩm là hàng dệt, may, da, giày, linh kiện điện, điện tử, chế biến nông, lâm, thủy sản; cung cấp điện, viễn thông, lọc dầu; cấp, thoát nước…
+**8. Thêm trường hợp nghỉ việc riêng hưởng nguyên lương**
+Theo Bộ luật 2019, người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động trong những trường hợp sau đây:
+- Kết hôn: nghỉ 3 ngày;
+- Con đẻ, con nuôi kết hôn: nghỉ 1 ngày;
+- Cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi; cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi của vợ hoặc chồng; vợ hoặc chồng; con đẻ, con nuôi chết: nghỉ 3 ngày.
+Như vậy, có thể thấy Bộ luật 2019 đã bổ sung thêm 2 trường hợp người lao động được nghỉ việc riêng và hưởng nguyên lương, cụ thể là trường hợp bố nuôi chết và mẹ nuôi chết.
+Đồng thời Bộ luật 2019 cũng quy định rõ hơn các trường hợp người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương đã được quy định trước đó tại Bộ luật 2012 như: Con kết hôn sẽ gồm con đẻ và con nuôi kết hôn; bố vợ, mẹ vợ hoặc bố chồng, mẹ chồng chết sẽ bao gồm cả bố đẻ, mẹ đẻ hoặc bố nuôi, mẹ nuôi của vợ hoặc chồng; con chết cũng sẽ bao gồm cả con đẻ hoặc con nuôi chết.
+**9. Người lao động được đơn phương chấm dứt hợp đồng không cần lý do**
+Nhằm khắc phục những hạn chế, bất cập từ việc áp dụng các trường hợp đơn phương chấm dứt hợp đồng của người lao động, Điều 35 (Bộ luật 2019) cho phép người lao động được quyền đơn phương chấm dứt hợp đồng không cần lý do mà chỉ cần báo trước 30 ngày với hợp đồng xác định thời hạn và 45 ngày với hợp đồng không xác định thời hạn.
+Thậm chí, trong một số trường hợp, người lao động còn được đơn phương chấm dứt hợp đồng mà không cần báo trước, như:
+- Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không được bảo đảm điều kiện làm việc theo thỏa thuận;
+- Không được trả đủ lương hoặc trả lương không đúng thời hạn;
+- Bị người sử dụng lao động ngược đãi, đánh đập hoặc có lời nói, hành vi nhục mạ, hành vi làm ảnh hưởng đến sức khỏe, nhân phẩm, danh dự; bị cưỡng bức lao động;
+- Bị quấy rối tình dục tại nơi làm việc;
+- Lao động nữ mang thai phải nghỉ việc;
+- Đủ tuổi nghỉ hưu, trừ trường hợp các bên có thỏa thuận khác;
+- Người sử dụng lao động cung cấp thông tin không trung thực làm ảnh hưởng đến việc thực hiện hợp đồng lao động.
+Đồng thời, người lao động cũng được quyền yêu cầu người sử dụng lao động cung cấp bản sao các tài liệu liên quan đến quá trình làm việc của mình khi chấm dứt hợp đồng lao động; các chi phí của việc cung cấp do người sử dụng lao động chi trả...
+**10. Có thể ủy quyền cho người khác nhận lương**
+Bộ luật mới quy định: Trường hợp người lao động không thể nhận lương trực tiếp thì người sử dụng lao động có thể trả lương cho người được người lao động ủy quyền hợp pháp.
+Trước đó nội dung này không được quy định tại Bộ luật 2012. Việc cho phép người lao động ủy quyền cho người khác nhận lương được cho là hợp lý, nhất là trong trường hợp người lao động bị ốm đau, tai nạn không thể trực tiếp nhận lương…
+**11. Khi trả lương qua ngân hàng, người sử dụng lao động phải trả phí mở tài khoản**
+Nếu như trước đây, Bộ luật 2012 quy định khi trả lương qua tài khoản ngân hàng, người sử dụng lao động và người lao động thỏa thuận về các loại phí liên quan đến việc mở và duy trì tài khoản (khoản 2 Điều 94); thì nay Bộ luật 2019 quy định việc trả các loại phí liên quan đến mở tài khoản và phí chuyển tiền là trách nhiệm bắt buộc của người sử dụng lao động.
+**12. Cấm ép người lao động dùng lương để mua hàng hóa, dịch vụ của công ty**
+Bộ luật mới quy định người sử dụng lao động không được hạn chế hoặc can thiệp vào quyền tự quyết chi tiêu lương của người lao động. Đặc biệt, không được ép buộc người lao động chi tiêu lương vào việc mua hàng hóa, sử dụng dịch vụ của người sử dụng lao động hoặc của đơn vị khác mà người sử dụng lao động chỉ định.
+**13. Người lao động có thể được "thưởng" không chỉ bằng tiền**
+Bộ luật 2019 quy định về “Thưởng” thay vì “Tiền thưởng” như Bộ luật 2012. Theo đó khái niệm thưởng cho người lao động cũng được mở rộng ra, có thể là tiền hoặc tài sản hoặc bằng các hình thức khác căn cứ vào kết quả sản xuất kinh doanh, mức độ hoàn thành công việc của người lao động.
+**14. Nhà nước không can thiệp trực tiếp vào tiền lương của doanh nghiệp**
+Điều 93 (Bộ luật 2019) quy định, doanh nghiệp được chủ động trong việc xây dựng thang lương, bảng lương và định mức lao động trên cơ sở thương lượng, thoả thuận với người lao động.
+Tiền lương trả cho người lao động là số tiền để thực hiện công việc, bao gồm mức lương theo công việc hoặc chức danh, phụ cấp lương và các khoản bổ sung khác. Mức lương theo công việc hoặc chức danh không thấp hơn mức lương tối thiểu vùng do Chính phủ quy định.
+**15. Khi trả lương, doanh nghiệp phải gửi bảng kê chi tiết cho người lao động**
+Nhằm minh bạch tiền lương của người lao động, Bộ luật 2019 yêu cầu mỗi lần trả lương, người sử dụng lao động phải thông báo bảng kê trả lương người lao động, trong đó ghi rõ: Tiền lương; Tiền lương làm thêm giờ; Tiền lương làm việc vào ban đêm; Nội dung và số tiền bị khấu trừ (nếu có)…
+**16. Đối thoại định kỳ tại nơi làm việc 1 năm/lần**
+Thay vì tổ chức định kỳ 3 tháng/lần như hiện nay thì khoản 1 Điều 63 (Bộ luật 2019) đã nâng thời gian tổ chức đối thoại định kỳ tại nơi làm việc lên 1 năm/lần; đồng thời, bổ sung thêm một số trường hợp người sử dụng lao động phải tổ chức đối thoại như vì lý do kinh tế mà nhiều người lao động có nguy cơ mất việc làm, phải thôi việc; khi xây dựng thang lương, bảng lương, định mức lao động...
+**17. Giới hạn thời gian học nghề, tập nghề để làm việc cho người sử dụng lao động**
+Cụ thể, theo nội dung tại Bộ luật 2019, học nghề để làm việc cho người sử dụng lao động là việc người sử dụng lao động tuyển người vào để đào tạo nghề nghiệp tại nơi làm việc; thời gian học nghề theo chương trình đào tạo của từng trình độ theo quy định của Luật Giáo dục nghề nghiệp. Tập nghề để làm việc cho người sử dụng lao động là việc người sử dụng lao động tuyển người vào để hướng dẫn thực hành công việc, tập làm nghề theo vị trí việc làm tại nơi làm việc; thời hạn tập nghề không quá 3 tháng.
+So với quy định hiện nay tại Bộ luật 2012, Bộ luật 2019 đã bổ sung quy định về thời hạn học nghề, tập nghề của người lao động, theo đó, từ ngày 1/1/2021, thời gian tập nghề của người lao động không quá 3 tháng còn thời gian học nghề theo chương trình đào tạo của từng trình độ theo quy định của Luật Giáo dục nghề nghiệp.
+_Theo TTXVN_
+  
+
+  
+
+  * [ trang chủ ](https://baochinhphu.vn/ "trang chủ")
+  * [ Chính trị ](https://baochinhphu.vn/chinh-tri.htm "Chính trị")
+  * [ Kinh tế ](https://baochinhphu.vn/kinh-te.htm "Kinh tế")
+  * [ Văn hóa ](https://baochinhphu.vn/van-hoa.htm "Văn hóa")
+  * [ Xã hội ](https://baochinhphu.vn/xa-hoi.htm "Xã hội")
+  * [ Khoa giáo ](https://baochinhphu.vn/khoa-giao.htm "Khoa giáo")
+  * [ Quốc tế ](https://baochinhphu.vn/quoc-te.htm "Quốc tế")
+  * [ GÓP Ý HIẾN KẾ ](https://baochinhphu.vn/#gop-y-hien-ke "GÓP Ý HIẾN KẾ")
+
+
+© BÁO ĐIỆN TỬ CỦA CHÍNH PHỦ NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+Tổng Biên tập: Nguyễn Hồng Sâm
+Giấy phép số: 102/GP-BTTTT, cấp ngày 15/04/2024.
+Trụ sở: 16 Lê Hồng Phong - Ba Đình - Hà Nội;
+Điện thoại: Văn phòng: 080.43162;Fax: 080.48924;
+Email: thongtinchinhphu@chinhphu.vn. 
+[ ![logo](https://static-cttcp.cdnchinhphu.vn/baochinhphu/image/logo-footrer-ap.png) ](https://baochinhphu.vn/ "trang chủ")
+Tải ứng dụng: 
+BÁO ĐIỆN TỬ CHÍNH PHỦ 
+[ ![app store](https://static-cttcp.cdnchinhphu.vn/baochinhphu/image/ip.png) ](https://apps.apple.com/app/b%C3%A1o-%C4%91t-ch%C3%ADnh-ph%E1%BB%A7/id6503898662 "appstore") [ ![google play](https://static-cttcp.cdnchinhphu.vn/baochinhphu/image/gg.png) ](https://play.google.com/store/apps/details?id=vn.chinhphu.baochinhphu "googleplays")
+![Quét ma QR](https://static-cttcp.cdnchinhphu.vn/thumb_w/200/baochinhphu/image/download-app-qrcode.png)
+Quét mã QR để tải
+Bản quyền thuộc Báo Điện tử Chính phủ - Cục Thông tin và Truyền thông Chính phủ. 
+Ghi rõ nguồn "Cục Thông tin và Truyền thông Chính phủ", "Báo Điện tử Chính phủ" hoặc "www.chinhphu.vn" khi phát hành lại thông tin từ các nguồn này. 
+[ ](javascript:;)

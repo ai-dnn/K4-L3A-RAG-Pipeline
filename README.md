@@ -29,6 +29,35 @@ cp .env.example .env
 
 Điền API key cần dùng trong `.env`; không commit file này.
 
+Task 3 dùng MarkItDown cho PDF/DOCX có text và Tesseract tiếng Việt cho PDF scan.
+Cài OCR trên macOS: `brew install tesseract tesseract-lang`; trên Ubuntu:
+`sudo apt-get install tesseract-ocr tesseract-ocr-vie`.
+Nếu Tesseract đã có sẵn, có thể đặt `vie.traineddata` trong `.cache/tessdata/`.
+Task 3 ưu tiên `2026_131_18_VBHN-VPQH.docx` có sẵn trong `data/landing/legal/`
+thay cho PDF scan cùng Bộ luật; không cần URL tải cho file cục bộ.
+
+Task 4 dùng `EMBEDDING_PROVIDER=openrouter`, `EMBEDDING_MODEL=baai/bge-m3`
+và `OPENROUTER_API_KEY`; không cần tải model. Chroma lưu tại `chroma_db/` (không commit).
+Để chạy local, dùng `EMBEDDING_PROVIDER=sentence_transformers`, `EMBEDDING_MODEL=BAAI/bge-m3`.
+
+Task 6 dùng BM25 với term-frequency saturation và IDF dương; Task 7 gộp dense/BM25
+bằng RRF. Task 9 chỉ dùng cosine score gốc để quyết định fallback.
+`SCORE_THRESHOLD=0.5978` được thử trên 4 câu hỏi đúng chủ đề và 4 câu ngoài chủ đề;
+đây là ngưỡng thử nghiệm ban đầu, cần đánh giá lại với golden dataset.
+
+Task 10 dùng `LLM_PROVIDER=openrouter`, `LLM_MODEL=google/gemini-2.5-flash` và
+`OPENROUTER_API_KEY`. Citation `[1]` tương ứng `sources[0]`, kể cả khi context được
+đổi thứ tự. Thiếu bằng chứng, citation không hợp lệ hoặc provider lỗi sẽ trả lời từ chối xác minh.
+
+Task 8 là fallback tùy chọn: điền `PAGEINDEX_API_KEY`, chạy
+`python -m src.task8_pageindex_vectorless` để upload các PDF tạo từ Markdown chuẩn hóa,
+rồi chờ PageIndex xử lý xong. ID tài liệu được cache trong `pageindex_doc_ids.json`;
+nội dung thay đổi sẽ được upload lại. Tìm kiếm dùng PageIndex tree và LLM chọn section,
+trả nguyên văn nội dung section. Không có key hoặc tài liệu chưa sẵn sàng thì giữ kết quả hybrid.
+Nếu không tìm được font tiếng Việt, đặt `PAGEINDEX_FONT_PATH` tới file TTF phù hợp.
+
+Chạy thử toàn bộ retrieval và generation: `python -m src.task10_generation`.
+
 ```bash
 # 1. Thu thập và chuẩn hoá
 python -m src.task1_collect_legal_docs

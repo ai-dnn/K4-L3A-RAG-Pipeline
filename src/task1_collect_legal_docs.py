@@ -7,14 +7,27 @@ Hướng dẫn:
     3. Lưu file gốc vào data/landing/legal/.
     4. Đặt tên không dấu và thể hiện đúng nội dung.
 
-Ví dụ tài liệu: học phí, học bổng, ký túc xá, quy trình đăng ký.
+Chủ đề: Bộ luật Lao động Việt Nam và các nghị định liên quan.
 Nếu website chặn crawler, hãy chọn nguồn công khai khác; không vượt WAF.
 """
 
 from pathlib import Path
 
+import requests
+
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "legal"
+
+# Bản gốc công khai trên Cổng thông tin điện tử Chính phủ.
+# Các nghị định là bản ban hành, không phải bản hợp nhất các sửa đổi sau này.
+SOURCES = {
+    "bo_luat_lao_dong_18_vbhn_vpqh_2026.pdf":
+        "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/18-vbhn-vpqh.pdf",
+    "nghi_dinh_145_2020_nd_cp_huong_dan_bo_luat_lao_dong.pdf":
+        "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/12/145.signed.pdf",
+    "nghi_dinh_12_2022_nd_cp_xu_phat_lao_dong.pdf":
+        "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/12-2022-nd.signed.pdf",
+}
 
 
 def setup_directory() -> None:
@@ -24,20 +37,12 @@ def setup_directory() -> None:
 
 
 def download_documents() -> None:
-    """Tải ít nhất 3 PDF/DOCX từ nguồn công khai."""
-    # TODO: Có thể tải thủ công hoặc dùng requests.
-    #
-    # Ví dụ:
-    # import requests
-    #
-    # sources = {
-    #     "policy-a.pdf": "https://example.edu/policy-a.pdf",
-    # }
-    # for filename, url in sources.items():
-    #     response = requests.get(url, timeout=30)
-    #     response.raise_for_status()
-    #     (DATA_DIR / filename).write_bytes(response.content)
-    raise NotImplementedError("Implement download_documents")
+    """Tải 3 PDF luật lao động từ nguồn công khai."""
+    for filename, url in SOURCES.items():
+        response = requests.get(url, timeout=60)
+        response.raise_for_status()
+        (DATA_DIR / filename).write_bytes(response.content)
+        print(f"Saved: {filename}")
 
 
 if __name__ == "__main__":
