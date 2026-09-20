@@ -66,15 +66,22 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
     ).tolist()
 
 
+_CLIENT_CACHE = None
+
+
 def get_collection():
     """Mở Chroma collection persistent dùng cosine distance."""
+    global _CLIENT_CACHE
     import chromadb
     from chromadb.config import Settings
 
-    client = chromadb.PersistentClient(
-        path=str(CHROMA_DIR), settings=Settings(anonymized_telemetry=False),
-    )
-    collection = client.get_or_create_collection(
+    if _CLIENT_CACHE is None or getattr(_CLIENT_CACHE, "_path", None) != str(CHROMA_DIR):
+        _CLIENT_CACHE = chromadb.PersistentClient(
+            path=str(CHROMA_DIR), settings=Settings(anonymized_telemetry=False),
+        )
+        _CLIENT_CACHE._path = str(CHROMA_DIR)
+
+    collection = _CLIENT_CACHE.get_or_create_collection(
         name=COLLECTION_NAME,
         embedding_function=None,
         metadata={"hnsw:space": "cosine", "embedding_model": EMBEDDING_MODEL,
@@ -165,6 +172,8 @@ def run_pipeline() -> None:
         raise ValueError(f"No non-empty documents in {STANDARDIZED_DIR}")
     print(f"Embedding {len(chunks)} chunks with {EMBEDDING_MODEL}", flush=True)
     index_to_vectorstore(embed_chunks(chunks))
+    if _CLIENT_CACHE:
+        _CLIENT_CACHE._system.stop()
     print(f"Indexed {len(chunks)} chunks")
 
 

@@ -1,5 +1,10 @@
 # Day 8 — RAG Pipeline
 
+## Thành viên nhóm
+- **Đặng Quốc Hiệp** (Mã học viên: 2A202602755)
+- **Nguyễn Việt Dũng**
+- **Nguyễn Thế Khang**
+
 ## Mục tiêu
 
 Mỗi nhóm xây dựng một chatbot RAG trả lời câu hỏi từ bộ tài liệu do nhóm thu thập. Sản phẩm phải có hybrid retrieval, citation, giao diện chat và báo cáo đánh giá.

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Tuổi nghỉ hưu của người lao động trong điều kiện bình thường được điều chỉnh theo lộ trình như thế nào?",
+    "expected_answer": "Tuổi nghỉ hưu của người lao động trong điều kiện bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với nam vào năm 2028 và đủ 60 tuổi đối với nữ vào năm 2035. Kể từ năm 2021, tuổi nghỉ hưu là đủ 60 tuổi 3 tháng đối với nam và đủ 55 tuổi 4 tháng đối với nữ; sau đó mỗi năm tăng thêm 3 tháng đối với nam và 4 tháng đối với nữ.",
+    "expected_context": "Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035. Kể từ năm 2021, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường là đủ 60 tuổi 3 tháng đối với nam; đủ 55 tuổi 4 tháng đối với nữ. Sau đó, cứ mỗi năm tăng thêm 3 tháng với lao động nam; 4 tháng với lao động nữ."
+  },
+  {
+    "question": "Dịp lễ Quốc khánh người lao động được nghỉ làm việc bao nhiêu ngày và hưởng lương như thế nào?",
+    "expected_answer": "Người lao động được nghỉ 2 ngày vào dịp Quốc khánh gồm ngày 2/9 Dương lịch và 1 ngày liền kề trước hoặc sau (1/9 hoặc 3/9), và được hưởng nguyên lương trong những ngày này.",
+    "expected_context": "Điều 112 (Bộ luật 2019) còn bổ sung thêm 1 ngày nghỉ trong năm vào ngày liền kề với ngày Quốc khánh, có thể là 1/9 hoặc 3/9 Dương lịch tùy theo từng năm và theo đề xuất của Bộ Lao động-Thương binh và Xã hội. Tổng số ngày nghỉ lễ, tết hàng năm sẽ nâng lên 11 ngày... Ngày Quốc khánh: 2 ngày. Trong những ngày này, người lao động được nghỉ làm việc và hưởng nguyên lương."
+  },
+  {
+    "question": "Bộ luật Lao động 2019 còn áp dụng hình thức hợp đồng lao động theo mùa vụ không?",
+    "expected_answer": "Không, Bộ luật Lao động 2019 đã bãi bỏ hợp đồng lao động theo mùa vụ hoặc theo một công việc nhất định có thời hạn dưới 12 tháng, chỉ còn 2 loại hợp đồng: không xác định thời hạn và xác định thời hạn.",
+    "expected_context": "Điều 20 (Bộ luật 2019) đã bỏ nội dung về hợp đồng mùa vụ hoặc theo một công việc có thời hạn dưới 12 tháng, thay vào đó chỉ còn 2 loại hợp đồng là: hợp đồng lao động không xác định thời hạn và hợp đồng lao động xác định thời hạn."
+  },
+  {
+    "question": "Hình thức giao kết hợp đồng lao động thông qua phương tiện điện tử có giá trị pháp lý không?",
+    "expected_answer": "Hợp đồng lao động được giao kết thông qua phương tiện điện tử dưới hình thức thông điệp dữ liệu có giá trị như hợp đồng lao động bằng văn bản.",
+    "expected_context": "Điều 14 (Bộ luật 2019) đã ghi nhận thêm hình thức giao kết hợp đồng lao động thông qua phương tiện điện tử có giá trị như hợp đồng lao động bằng văn bản."
+  },
+  {
+    "question": "Người sử dụng lao động có được giao kết nhiều lần hợp đồng lao động xác định thời hạn với người cao tuổi không?",
+    "expected_answer": "Có, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn đối với người lao động cao tuổi.",
+    "expected_context": "Điều 149 (Bộ luật 2019) cho phép người sử dụng lao động thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn với người cao tuổi thay vì kéo dài thời hạn hợp đồng lao động hoặc giao kết hợp đồng lao động mới."
+  },
+  {
+    "question": "Số giờ làm thêm tối đa của người lao động trong một tháng theo quy định mới là bao nhiêu?",
+    "expected_answer": "Số giờ làm thêm của người lao động không quá 40 giờ trong 01 tháng (tăng từ mức 30 giờ/tháng trước đây) và không quá 200 giờ/năm (trừ trường hợp đặc biệt không quá 300 giờ/năm).",
+    "expected_context": "bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 1 ngày; không quá 40 giờ/tháng; không quá 200 giờ/năm, trừ một số trường hợp đặc biệt được làm thêm không quá 300 giờ/năm."
+  },
+  {
+    "question": "Người lao động kết hôn được nghỉ việc riêng hưởng nguyên lương bao nhiêu ngày?",
+    "expected_answer": "Người lao động kết hôn được nghỉ việc riêng hưởng nguyên lương 03 ngày và phải thông báo cho người sử dụng lao động.",
+    "expected_context": "Theo Bộ luật 2019, người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động trong những trường hợp sau đây: Kết hôn: nghỉ 3 ngày."
+  },
+  {
+    "question": "Con đẻ hoặc con nuôi kết hôn thì người lao động được nghỉ bao nhiêu ngày?",
+    "expected_answer": "Con đẻ hoặc con nuôi kết hôn thì người lao động được nghỉ việc riêng 01 ngày và vẫn hưởng nguyên lương.",
+    "expected_context": "Con đẻ, con nuôi kết hôn: nghỉ 1 ngày... người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động."
+  },
+  {
+    "question": "Trường hợp cha nuôi hoặc mẹ nuôi qua đời, người lao động được nghỉ bao nhiêu ngày hưởng nguyên lương?",
+    "expected_answer": "Cha nuôi, mẹ nuôi; cha nuôi, mẹ nuôi của vợ hoặc chồng chết thì người lao động được nghỉ việc riêng 03 ngày hưởng nguyên lương.",
+    "expected_context": "Cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi; cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi của vợ hoặc chồng; vợ hoặc chồng; con đẻ, con nuôi chết: nghỉ 3 ngày... bổ sung thêm 2 trường hợp người lao động được nghỉ việc riêng và hưởng nguyên lương, cụ thể là trường hợp bố nuôi chết và mẹ nuôi chết."
+  },
+  {
+    "question": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do không?",
+    "expected_answer": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động mà không cần lý do nhưng phải báo trước theo quy định (ít nhất 30 ngày đối với hợp đồng xác định thời hạn từ 12 đến 36 tháng, 45 ngày đối với hợp đồng không xác định thời hạn).",
+    "expected_context": "Điều 35 (Bộ luật 2019) cho phép người lao động được quyền đơn phương chấm dứt hợp đồng không cần lý do mà chỉ cần báo trước 30 ngày với hợp đồng xác định thời hạn và 45 ngày với hợp đồng không xác định thời hạn."
+  },
+  {
+    "question": "Trường hợp nào người lao động được đơn phương chấm dứt hợp đồng lao động không cần báo trước?",
+    "expected_answer": "Người lao động không cần báo trước khi: không được bố trí đúng công việc, địa điểm hoặc điều kiện làm việc; không được trả đủ lương hoặc trả lương chậm; bị ngược đãi, đánh đập, nhục mạ hoặc quấy rối tình dục tại nơi làm việc; lao động nữ mang thai phải nghỉ việc theo chỉ định của cơ sở khám chữa bệnh.",
+    "expected_context": "người lao động còn được đơn phương chấm dứt hợp đồng mà không cần báo trước, như: Không được bố trí theo đúng công việc, địa điểm làm việc; Không được trả đủ lương hoặc trả lương không đúng thời hạn; Bị ngược đãi, đánh đập hoặc nhục mạ; Bị quấy rối tình dục tại nơi làm việc; Lao động nữ mang thai phải nghỉ việc."
+  },
+  {
+    "question": "Người lao động có được ủy quyền cho người khác nhận lương không?",
+    "expected_answer": "Trường hợp người lao động không thể nhận lương trực tiếp thì người sử dụng lao động có thể trả lương cho người được người lao động ủy quyền hợp pháp.",
+    "expected_context": "Trường hợp người lao động không thể nhận lương trực tiếp thì người sử dụng lao động có thể trả lương cho người được người lao động ủy quyền hợp pháp."
+  },
+  {
+    "question": "Chi phí mở tài khoản ngân hàng và phí chuyển tiền lương do ai chi trả?",
+    "expected_answer": "Người sử dụng lao động có trách nhiệm trả các loại phí liên quan đến việc mở tài khoản và chuyển tiền lương khi trả lương qua tài khoản cá nhân của người lao động mở tại ngân hàng.",
+    "expected_context": "Bộ luật 2019 quy định việc trả các loại phí liên quan đến mở tài khoản và phí chuyển tiền là trách nhiệm bắt buộc của người sử dụng lao động."
+  },
+  {
+    "question": "Người sử dụng lao động có được ép người lao động dùng tiền lương để mua hàng hóa của công ty không?",
+    "expected_answer": "Không, người sử dụng lao động không được hạn chế hoặc can thiệp vào quyền tự quyết chi tiêu lương của người lao động; không được ép buộc người lao động mua hàng hóa, sử dụng dịch vụ của doanh nghiệp hoặc đơn vị chỉ định.",
+    "expected_context": "người sử dụng lao động không được hạn chế hoặc can thiệp vào quyền tự quyết chi tiêu lương của người lao động. Đặc biệt, không được ép buộc người lao động chi tiêu lương vào việc mua hàng hóa, sử dụng dịch vụ của người sử dụng lao động hoặc của đơn vị khác mà người sử dụng lao động chỉ định."
+  },
+  {
+    "question": "Tiền thưởng cho người lao động có thể bằng hình thức nào ngoài tiền mặt?",
+    "expected_answer": "Thưởng cho người lao động có thể là tiền hoặc tài sản hoặc bằng các hình thức khác căn cứ vào kết quả sản xuất, kinh doanh và mức độ hoàn thành công việc của người lao động.",
+    "expected_context": "Bộ luật 2019 quy định về 'Thưởng' thay vì 'Tiền thưởng'... có thể là tiền hoặc tài sản hoặc bằng các hình thức khác căn cứ vào kết quả sản xuất kinh doanh, mức độ hoàn thành công việc của người lao động."
+  },
+  {
+    "question": "Thời hạn tập nghề để làm việc cho người sử dụng lao động tối đa là bao lâu?",
+    "expected_answer": "Thời hạn tập nghề để làm việc cho người sử dụng lao động không quá 03 tháng.",
+    "expected_context": "Tập nghề để làm việc cho người sử dụng lao động là việc người sử dụng lao động tuyển người vào để hướng dẫn thực hành công việc, tập làm nghề theo vị trí việc làm tại nơi làm việc; thời hạn tập nghề không quá 3 tháng."
+  }
+]

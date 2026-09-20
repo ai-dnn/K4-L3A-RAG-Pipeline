@@ -43,6 +43,10 @@ def render_message(message: dict) -> None:
             metadata = source.get("metadata", {})
             title = metadata.get("title") or metadata.get("source") or "Tài liệu"
             with st.expander(f"[{index}] {title}"):
+                score = source.get("score")
+                retrieval_method = message.get("retrieval_source", "hybrid")
+                if score is not None:
+                    st.caption(f"Score: {score:.4f} | Phương thức: {retrieval_method}")
                 st.markdown(source["content"])
                 if metadata.get("source"):
                     st.caption(f"Tài liệu: {metadata['source']}")
@@ -57,6 +61,7 @@ if "messages" not in st.session_state:
 with st.sidebar:
     st.header("⚖️ Sổ tay lao động")
     st.caption("Tra cứu pháp luật lao động Việt Nam")
+    st.caption("Nhóm: Đặng Quốc Hiệp (2A202602755), Nguyễn Việt Dũng, Nguyễn Thế Khang")
     if st.button("Cuộc trò chuyện mới", use_container_width=True):
         st.session_state.messages = []
         st.rerun()
@@ -92,7 +97,12 @@ if query:
     with st.spinner("Đang tra cứu tài liệu và soạn câu trả lời…"):
         try:
             result = generate_with_citation(query, top_k=top_k)
-            message = {"role": "assistant", "content": result["answer"], "sources": result["sources"]}
+            message = {
+                "role": "assistant",
+                "content": result["answer"],
+                "sources": result["sources"],
+                "retrieval_source": result.get("retrieval_source", "hybrid"),
+            }
         except Exception:
             message = {"role": "assistant", "content": "Không thể hoàn tất tra cứu. Vui lòng thử lại.", "sources": []}
     st.session_state.messages.append(message)

@@ -28,7 +28,7 @@ def test_docx_replaces_matching_pdf_without_ocr(tmp_path, monkeypatch):
     outputs = list((tmp_path / 'standardized/legal').glob('*.md'))
     assert [path.name for path in outputs] == [f'{stem}.md']
     assert all(path.endswith(docx) for path in calls)
-    assert f'**Source:** {docx}' in outputs[0].read_text()
+    assert f'**Source:** {docx}' in outputs[0].read_text(encoding='utf-8')
 
 
 def test_loading_metadata_and_stable_chunks(tmp_path, monkeypatch):
